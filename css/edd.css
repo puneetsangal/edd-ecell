@@ -175,8 +175,7 @@ header.sticky-active #my-nav>li>a:hover {
    z-index: 0;
    min-height: 2000px;
    }
-.register-here{
-   display:inline-block;  
+.register-here{ 
    text-decoration:none;
    background-color: white;
    color:black ;
@@ -197,11 +196,11 @@ header.sticky-active #my-nav>li>a:hover {
    -moz-osx-font-smoothing:grayscale;"
 }  
 button.register-here:hover {
-   background-color: black;
+   background-color: honeydew;
    color: white;
 }
 button.register-here:hover a{
-   background-color: black;
+   background-color: honeydew;
    color: white;
 }
 @media (min-width: 1024px) {
