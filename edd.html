@@ -32,14 +32,14 @@
     <div class="body-inner">
 
         <!-- Header -->
-        <header id="header" data-fullwidth="true" data-transparent="true" data-responsive-fixed="true" class="header">
+        <header id="header" data-fullwidth="true" data-transparent="true" data-responsive-fixed="true" class="header header-mini">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
                         <a href="https://ecell.iitm.ac.in/index.html">
-                            <img src="images/logos/e-cell_logo_white.png" class="p-t-10 p-b-10 logo-default">
-                            <img src="images/logos/e-cell_logo.png" class="p-t-10 p-b-10 logo-responsive logo-fixed">
+                            <img src="images/logos/e-cell_logo.png" class="p-t-10 p-b-10 logo-default">
+                           <!-- <img src="images/logos/e-cell_logo.png" class="p-t-10 p-b-10 logo-responsive logo-fixed">-->
                         </a>
                     </div>
                     <!--End: Logo-->
@@ -95,8 +95,54 @@
             </div>
         </header>
         <!-- end: Header -->
+        <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-dark arrows-dark dots-creative" data-fade="true" data-height-xs="360">
+
+            <!-- Slide 1 -->
+            <div class="slide background-image" style="background-image:url('images/edd/3.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-right">
+                        <!-- Captions -->
+                        <span class="strong text-dark">Towards Developing an Entrepreneurial Ecosystem</span>
+                        <h2 class="text-dark text-lg">Entrepreneurship Development Drive</h2>
+                        <a class="btn btn-dark">Register Here</a>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 1 -->
+
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image:url('images/edd/4.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-left">
+                        <!-- Captions -->
+                        <span class="strong text-dark">An initative of Entrepreneurship Cell</span>
+                        <h2 class="text-dark text-lg">Entrepreneurship Development Drive</h2>
+                        <a class="btn btn-dark">Register Here</a>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 2 -->
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image:url('images/edd/5.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-left">
+                        <!-- Captions -->
+                        <span class="strong text-dark">Every individual who aspires to be an entrepreneur should be promoted and rest inspired</span>
+                        <h2 class="text-dark text-lg">Entrepreneurship Development Drive</h2>
+                        <a class="btn btn-dark">Register Here</a>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 3-->
+
+        </div>
+        <!--end: Inspiro Slider -->
         <!-- SECTION IMAGE FULLSCREEN -->
-        <section id ="slider" class="fullscreen background-overlay-dark" data-bg-parallax="images/edd/1.jpeg">
+        <!--<section id ="slider" class="fullscreen background-overlay-dark" data-bg-parallax="images/edd/1.jpeg">
             <div class="bg-overlay"></div>
             <div class="container container-fullscreen">
                 <div class="text-middle text-center text-light">
@@ -108,7 +154,7 @@
                     <a href="#register" class="btn btn-light"><b>Register Now</b></a>
                 </div>
             </div>   
-        </section>
+        </section>-->
         <!-- end: SECTION IMAGE FULLSCREEN -->
    <div class ="boxed1">
         <!-- ABOUT US -->
@@ -409,6 +455,55 @@
 </div>
 </div>
 <!-- end: Body Inner -->
+<!--
+    #my-nav>li>a {
+   color: white !important;
+}
+
+#my-nav>li>a:hover {
+   background-color: white;
+   color: #001d55 !important;
+}
+
+#my-nav>li>a:enabled {
+   text-decoration: underline;
+}
+
+#my-nav>li {
+   margin-left: 0 !important;
+}
+
+#topbar {
+   color: #001d55 !important;
+}
+
+#my-nav>li>#my-dropdown-nav {
+   background-color: whitesmoke;
+   border: none;
+}
+
+#my-nav>li>#my-dropdown-nav>li>a {
+   color: #001d55;
+}
+
+#my-nav>li>#my-dropdown-nav>li>a:hover {
+   background-color: #001d55;
+   color: white;
+}
+header.sticky-active #my-nav>li>a {
+   color: #001d55 !important;
+}
+
+header.sticky-active #my-nav>li>a:hover {
+   background-color: #001d55;
+   color: white !important;
+}
+@media screen and (max-width: 1024px) {
+   #my-nav>li>a {
+       color: #001d55 !important;
+   }
+}
+-->
 
 <!-- Scroll top -->
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
@@ -430,7 +525,7 @@
         else{
             document.getElementById('edd').style.display='none';
             document.getElementById('edd1').innerHTML='Read More';
-            
+            document.getElementById('edd1').scrollIntoView();
         }
     }
 </script>
