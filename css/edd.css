@@ -237,3 +237,7 @@ button.register-here:hover a{
   padding-bottom: 100px;
   align-self: center !important;
 }
+.wdwh:hover{
+background-color:#eeeeee !important;
+padding-bottom: 0px;
+}
