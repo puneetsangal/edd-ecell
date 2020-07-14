@@ -108,7 +108,7 @@ header.sticky-active #my-nav>li>a:hover {
 }
 .whyedd{
    height: 260px;
-   background-color: rgb(97, 154, 192);
+   background-color: #89b8da;
 }
 @media (max-width: 1024px) {
    .front-edd {
@@ -120,7 +120,7 @@ header.sticky-active #my-nav>li>a:hover {
    }
    .whyedd{
       height: 280px;
-      background-color: rgb(97, 154, 192);
+      background-color: #89b8da;
    }
    .inspiro-slider .container1 {
       padding-left: 40px;
@@ -218,12 +218,12 @@ header.sticky-active #my-nav>li>a:hover {
    -moz-osx-font-smoothing:grayscale;"
 }  
 button.register-here:hover {
-   background-color: rgb(165, 250, 165);
-   color: black;
+   background-color: black;
+   color: white;
 }
 button.register-here:hover a{
-   background-color: rgb(165, 250, 165);
-   color: black;
+   background-color: black;
+   color: white;
 }
 @media (min-width: 1024px) {
    div.boxed1{
